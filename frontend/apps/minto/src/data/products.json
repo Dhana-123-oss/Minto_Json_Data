@@ -1,0 +1,10 @@
+[
+  { "id": "local-tomato", "name": "Farm Fresh Tomato", "category": "Fresh produce", "price": 20, "unit": "500 g", "image": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=700&q=85", "badge": "Best seller" },
+  { "id": "local-onion", "name": "Red Onion", "category": "Fresh produce", "price": 28, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=700&q=85", "badge": "Everyday essential" },
+  { "id": "local-milk", "name": "Aavin Full Cream Milk", "category": "Dairy", "price": 28, "unit": "500 ml", "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=700&q=85", "badge": "Fresh today" },
+  { "id": "local-potato", "name": "Farm Potato", "category": "Fresh produce", "price": 24, "unit": "1 kg", "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=700&q=85", "badge": "Value pack" },
+  { "id": "local-carrot", "name": "Ooty Carrot", "category": "Fresh produce", "price": 32, "unit": "500 g", "image": "https://images.unsplash.com/photo-1445282768818-728615cc910a?auto=format&fit=crop&w=700&q=85", "badge": "Farm picked" },
+  { "id": "local-banana", "name": "Yelakki Banana", "category": "Fruits", "price": 40, "unit": "6 pcs", "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=700&q=85", "badge": "Naturally sweet" },
+  { "id": "local-bread", "name": "Whole Wheat Bread", "category": "Bakery", "price": 30, "unit": "400 g", "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85", "badge": "Baked fresh" },
+  { "id": "local-eggs", "name": "Farm Fresh Eggs", "category": "Dairy", "price": 72, "unit": "12 pcs", "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?auto=format&fit=crop&w=700&q=85", "badge": "Protein pick" }
+]

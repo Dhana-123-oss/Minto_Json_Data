@@ -1,0 +1,13 @@
+{
+  "demoMobile": "9876543210",
+  "demoOtp": "123456",
+  "sampleRider": {
+    "fullName": "Minto Rider",
+    "city": "Salem",
+    "aadhaar": "XXXX XXXX 4821",
+    "pan": "ABCDE1234F",
+    "bicycle": { "panVerified": true, "faceVerified": true },
+    "bike": { "panVerified": true, "licenseVerified": true, "vehicleVerified": true, "faceVerified": true },
+    "ev": { "panVerified": true, "licenseVerified": true, "vehicleVerified": true, "faceVerified": true }
+  }
+}

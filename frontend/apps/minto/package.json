@@ -1,0 +1,21 @@
+{
+  "name": "minto-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/ensure-port.mjs",
+    "dev": "npm run build && vite preview --host localhost --port 5173 --strictPort",
+    "dev:source": "vite --host localhost",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "availableGigs": [
+    { "id": "gig-aug-01", "title": "Morning express", "time": "08:00 AM – 12:00 PM", "duration": "4 hours", "pay": 420, "orders": 8, "distance": "12.4 km", "store": "Minto Fresh Hub", "area": "Anna Nagar" },
+    { "id": "gig-aug-02", "title": "Lunch rush", "time": "12:00 PM – 04:00 PM", "duration": "4 hours", "pay": 460, "orders": 10, "distance": "15.8 km", "store": "Minto Fresh Hub", "area": "New Bus Stand" },
+    { "id": "gig-aug-03", "title": "Evening peak", "time": "04:00 PM – 08:00 PM", "duration": "4 hours", "pay": 520, "orders": 12, "distance": "18.2 km", "store": "Minto Fresh Hub", "area": "Kamarajar Nagar" }
+  ],
+  "bookedGigs": [
+    { "id": "gig-today", "title": "Today’s delivery shift", "time": "08:00 AM – 12:00 PM", "duration": "4 hours", "pay": 420, "orders": 8, "distance": "12.4 km", "store": "Minto Fresh Hub", "area": "Anna Nagar", "status": "Booked" }
+  ],
+  "earnings": { "today": 680, "week": 4280, "month": 16340, "orders": 73, "hours": 42.5, "payoutDay": "Every Monday" },
+  "offers": [
+    { "title": "Evening peak bonus", "detail": "Complete 8 orders between 5 PM and 9 PM", "reward": 200, "color": "orange" },
+    { "title": "Weekly streak", "detail": "Work 5 shifts this week", "reward": 500, "color": "green" },
+    { "title": "Refer and earn", "detail": "Invite a delivery partner to Minto", "reward": 1400, "color": "purple" }
+  ],
+  "vehicles": [
+    { "name": "Ola S1 Pro", "type": "Electric scooter", "price": 250, "distance": "0.8 km away", "available": true },
+    { "name": "TVS iQube", "type": "Electric scooter", "price": 275, "distance": "1.4 km away", "available": true }
+  ]
+}

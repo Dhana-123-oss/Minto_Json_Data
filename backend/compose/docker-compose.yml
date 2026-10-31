@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment: {POSTGRES_DB: minto, POSTGRES_USER: minto, POSTGRES_PASSWORD: minto}
+    ports: ["5432:5432"]
+    volumes: [minto_pg:/var/lib/postgresql/data]
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    ports: ["5672:5672", "15672:15672"]
+  valkey:
+    image: valkey/valkey:8-alpine
+    ports: ["6379:6379"]
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.0
+    command: start-dev
+    environment: {KC_BOOTSTRAP_ADMIN_USERNAME: admin, KC_BOOTSTRAP_ADMIN_PASSWORD: admin}
+    ports: ["8080:8080"]
+  traefik:
+    image: traefik:v3.2
+    command: --api.insecure=true --providers.docker=true --entrypoints.web.address=:80
+    ports: ["80:80", "8088:8080"]
+    volumes: ["/var/run/docker.sock:/var/run/docker.sock:ro"]
+  api:
+    build: {context: .., dockerfile: compose/Dockerfile.api}
+    environment:
+      ConnectionStrings__Minto: 'Host=postgres;Database=minto;Username=minto;Password=minto'
+      RabbitMq__Host: rabbitmq
+      RabbitMq__User: guest
+      RabbitMq__Password: guest
+    ports: ["5080:8080"]
+    depends_on: [postgres, rabbitmq, valkey, keycloak]
+volumes: {minto_pg: {}}

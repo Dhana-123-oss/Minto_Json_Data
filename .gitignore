@@ -1,0 +1,20 @@
+# .NET generated files
+**/bin/
+**/obj/
+.vs/
+
+# Node.js generated files
+node_modules/
+**/node_modules/
+**/dist/
+**/build/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+
+# IDE and logs
+.vscode/
+*.log

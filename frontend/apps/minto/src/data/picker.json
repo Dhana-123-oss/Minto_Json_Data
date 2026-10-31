@@ -1,0 +1,13 @@
+{
+  "stores": [
+    { "name": "Minto Fresh Hub", "area": "Anna Nagar", "distance": "0.4 km away", "openOrders": 12, "status": "Open" },
+    { "name": "Minto Daily Store", "area": "New Bus Stand", "distance": "1.8 km away", "openOrders": 8, "status": "Open" },
+    { "name": "Minto Local Market", "area": "Kamarajar Nagar", "distance": "3.2 km away", "openOrders": 5, "status": "Busy" }
+  ],
+  "shifts": [
+    { "id": "shift-01", "title": "Morning shift", "time": "08:00 AM – 12:00 PM", "duration": "4 hours", "pay": 360, "orders": 14, "store": "Minto Fresh Hub", "status": "Available" },
+    { "id": "shift-02", "title": "Afternoon shift", "time": "12:00 PM – 04:00 PM", "duration": "4 hours", "pay": 380, "orders": 16, "store": "Minto Fresh Hub", "status": "Available" },
+    { "id": "shift-03", "title": "Evening shift", "time": "04:00 PM – 08:00 PM", "duration": "4 hours", "pay": 420, "orders": 18, "store": "Minto Daily Store", "status": "Available" }
+  ],
+  "earnings": { "today": 360, "week": 2940, "month": 11280, "orders": 186, "hours": 58.5 }
+}

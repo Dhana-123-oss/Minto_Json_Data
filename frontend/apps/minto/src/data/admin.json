@@ -1,0 +1,25 @@
+{
+  "metrics": { "ordersToday": 24, "activePickers": 6, "activeRiders": 9, "delayedOrders": 2, "lowStockItems": 4, "revenueToday": 12480 },
+  "riders": [
+    { "id": "MIN-RD-1024", "name": "Minto Rider", "phone": "9876543210", "vehicle": "Bike", "kyc": "Approved", "status": "Online", "deliveries": 186, "rating": 4.8 },
+    { "id": "MIN-RD-1025", "name": "Arun Kumar", "phone": "9876501234", "vehicle": "Bicycle", "kyc": "Pending", "status": "Offline", "deliveries": 74, "rating": 4.6 },
+    { "id": "MIN-RD-1026", "name": "Meena S", "phone": "9876512345", "vehicle": "EV", "kyc": "Approved", "status": "Online", "deliveries": 112, "rating": 4.9 }
+  ],
+  "pickers": [
+    { "id": "MIN-PK-301", "name": "Kavitha R", "store": "Minto Fresh Hub", "status": "On shift", "orders": 38, "accuracy": 97 },
+    { "id": "MIN-PK-302", "name": "Muthu P", "store": "Minto Daily Store", "status": "On break", "orders": 29, "accuracy": 95 },
+    { "id": "MIN-PK-303", "name": "Priya S", "store": "Minto Fresh Hub", "status": "Offline", "orders": 41, "accuracy": 99 }
+  ],
+  "inventory": [
+    { "name": "Farm Fresh Tomato", "category": "Fresh produce", "stock": 8, "reorderAt": 20, "store": "Minto Fresh Hub" },
+    { "name": "Aavin Full Cream Milk", "category": "Dairy", "stock": 12, "reorderAt": 24, "store": "Minto Fresh Hub" },
+    { "name": "Red Onion", "category": "Fresh produce", "stock": 42, "reorderAt": 15, "store": "Minto Daily Store" },
+    { "name": "Farm Fresh Eggs", "category": "Dairy", "stock": 6, "reorderAt": 18, "store": "Minto Fresh Hub" }
+  ],
+  "complaints": [
+    { "id": "CMP-2041", "order": "demo-1025", "customer": "Muthu P.", "type": "Missing item", "status": "Open", "time": "10 min ago" },
+    { "id": "CMP-2040", "order": "demo-1022", "customer": "Lakshmi K.", "type": "Late delivery", "status": "Investigating", "time": "34 min ago" },
+    { "id": "CMP-2039", "order": "demo-1019", "customer": "Arun K.", "type": "Damaged item", "status": "Resolved", "time": "1 hr ago" }
+  ],
+  "notifications": ["2 orders are delayed", "Arun Kumar's KYC needs review", "Farm Fresh Tomato is low in stock", "Rain surge is disabled"]
+}

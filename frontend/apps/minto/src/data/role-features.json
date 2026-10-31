@@ -1,0 +1,23 @@
+{
+  "rider": [
+    ["Live GPS location", "Location active · 0.8 km from store", "Location on"],
+    ["Nearby order matching", "Nearest available orders are matched automatically", "View matches"],
+    ["Cash collection", "Cash in hand ₹420 · Settlement due today", "Open wallet"],
+    ["Safety & SOS", "Emergency support is available 24/7", "Open safety"],
+    ["Vehicle & documents", "Bike service due in 12 days · License valid", "View documents"]
+  ],
+  "customer": [
+    ["Live delivery tracking", "Your rider and ETA update in real time", "Track order"],
+    ["Replacement approval", "Approve or reject unavailable item suggestions", "Review items"],
+    ["Coupons & loyalty", "₹120 savings available · 240 Minto points", "View rewards"],
+    ["Subscriptions", "Milk and bread deliveries can repeat weekly", "Manage plans"],
+    ["Support & refunds", "Chat with support or request a partial refund", "Get help"]
+  ],
+  "manager": [
+    ["Store open/close", "Minto Fresh Hub · Open until 10:00 PM", "Manage hours"],
+    ["Picker assignment", "6 pickers active · 2 orders waiting", "Assign team"],
+    ["Supplier purchase order", "4 items below reorder level", "Create PO"],
+    ["Delivery radius", "Current service radius: 5 km", "Edit radius"],
+    ["Audit & permissions", "12 admin actions recorded today", "View audit log"]
+  ]
+}
